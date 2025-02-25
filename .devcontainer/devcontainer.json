@@ -6,7 +6,9 @@
 	"image": "mcr.microsoft.com/devcontainers/go:1-1.21-bullseye",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+	"features": {
+		"ghcr.io/jeanp413/devcontainer-features/vscode-browser:latest": {}
+	},
 
 	// Configure tool-specific properties.
 	"customizations": {
@@ -22,7 +24,7 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [9000],
 
-	// Use 'portsAttributes' to set default properties for specific forwarded ports. 
+	// Use 'portsAttributes' to set default properties for specific forwarded ports.
 	// More info: https://containers.dev/implementors/json_reference/#port-attributes
 	"portsAttributes": {
 		"9000": {
