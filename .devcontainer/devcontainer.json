@@ -6,9 +6,9 @@
 	"image": "mcr.microsoft.com/devcontainers/go:1-1.21-bullseye",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	"features": {
-		"ghcr.io/jeanp413/devcontainer-features/vscode-browser:latest": {}
-	},
+	// "features": {
+	// 	"ghcr.io/jeanp413/devcontainer-features/vscode-browser:latest": {}
+	// },
 
 	// Configure tool-specific properties.
 	"customizations": {
